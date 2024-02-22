@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: datalog03
+    schema: source
+
+    tables:
+      - name: fretes
+        description: Tabela com os dados de fretes.
+        
+      - name: cadastro_veiculos
+        description: Tabela com o cadastro da frota de veículos da empresa.
