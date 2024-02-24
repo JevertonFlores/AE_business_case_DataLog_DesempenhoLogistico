@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: staging
+    description: Dados vindos do source, com pequenos tratamentos.
+
+
+    tables:
+      - name: stg_fretes
+        description: Cópia dos dados de origem da tabela fretes.
+        
+      - name: stg_cadastro_veiculos
+        description: Cópia dos dados de origem da tabela cadastro_veiculos.
