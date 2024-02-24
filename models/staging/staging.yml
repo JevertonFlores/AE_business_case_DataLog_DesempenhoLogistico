@@ -9,5 +9,5 @@ sources:
       - name: stg_fretes
         description: Cópia dos dados de origem da tabela fretes.
         
-      - name: stg_cadastro_veiculos
+      - name: stg_veiculos
         description: Cópia dos dados de origem da tabela cadastro_veiculos.

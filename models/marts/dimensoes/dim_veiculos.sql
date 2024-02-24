@@ -13,7 +13,7 @@ SELECT
         ELSE marca 
     END AS marca
     ,CASE 
-        WHEN UPPER(tipo_veiculo) = 'CAM' THEN 'CARRETA'
+        WHEN UPPER(tipo_veiculo) = 'CAM' THEN 'Camionete'
         ELSE tipo_veiculo
     END AS tipo_veiculo
     ,bau

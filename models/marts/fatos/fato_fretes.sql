@@ -44,7 +44,8 @@ intermediate AS (
 
 final AS (
     SELECT
-        v.sk_veiculo
+        TO_CHAR(f.data_pedido, 'YYYYMMDD')::INT AS sk_datetime
+        ,v.sk_veiculo
         ,c.sk_cliente
         ,o.sk_ocorrencia
         ,f.data_pedido
